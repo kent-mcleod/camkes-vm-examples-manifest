@@ -12,12 +12,12 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" remote="kent" revision="aec768096ef64b744fbf5d8d2643835a2f5863d7" upstream="kent/multicore3" dest-branch="kent/multicore3">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" remote="kent" revision="9c403b9fd7742a20931853d409e27ce469b3ea58" upstream="kent/multicore3" dest-branch="kent/multicore3">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" remote="kent" revision="fd097383c8f46fc15f38b0ca447b971230f14b87" upstream="kent/multicore3" dest-branch="kent/multicore3">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="38cc97b913d11a35dd95f4fec47c742a0c84f94a" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="ed9ce4cd7ba256b3835eef592a6604449d37f9cd" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" remote="kent" revision="639c5a804e3b0cab65a1899a102264b6fadc1ef7" upstream="kent/multicore3" dest-branch="kent/multicore3">
+  <project name="camkes-vm.git" path="projects/vm" remote="kent" revision="77da2700e7030012f1ef179920847a5e3e069b0a" upstream="kent/multicore3" dest-branch="kent/multicore3">
     <linkfile src="README.md" dest="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" remote="kent" revision="a1632a034e1358f9e0128a2d98db5884643fdf4e" upstream="kent/multicore3" dest-branch="kent/multicore3"/>
@@ -28,13 +28,13 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="250ebdc6a1b74ddb12f99eee34c2b41570fe0afa" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" remote="kent" revision="a21f3468d7bf35584cd8736c99f684d683a1c8aa" upstream="kent/multicore3" dest-branch="kent/multicore3"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="d28e409727fc694322f7e8a94024b216bb3acc8f" upstream="master" dest-branch="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="kent" revision="9b7083a0e409c5631907362c951eb2c66badc874" upstream="kent/multicore3" dest-branch="kent/multicore3"/>
+  <project name="seL4.git" path="kernel" remote="kent" revision="80eb343372b27aa7688377988d1462e232281f2b" upstream="kent/multicore3" dest-branch="kent/multicore3"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="06527c27c73961b2a21fa19d064c8cdf400c0911" upstream="master" dest-branch="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="kent" revision="6305d473d1778e5e2c3da7f09bc6c98ea258d9a1" upstream="kent/multicore3" dest-branch="kent/multicore3"/>
   <project name="seL4_tools.git" path="tools/seL4" remote="kent" revision="323243e99117d7bbe31d81b496ef2da06ea72744" upstream="kent/multicore3" dest-branch="kent/multicore3">
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="fb26509f4877c8e9357494ebc93c81c77749ea46" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="1bc0e798d041c615aa0cc8e3f8d74939d5d00c9e" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="53cf4aa7c68a4b84aecb9ea21fff2484e2688cbb" upstream="master" dest-branch="master"/>
 </manifest>
